@@ -17,7 +17,7 @@ public class SpringController {
 	
 	@GetMapping("getallemployee")
 	public List<Demo> getAllEmpolee() {
-		System.out.println("hello Rashi");
+		System.out.println("helloHi Rashi");
 		List<Demo> listOfEmp = springService.getAllEmpolee();
 		return listOfEmp;
 	}
