@@ -6,6 +6,7 @@ import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Expression;
 import org.springframework.stereotype.Repository;
 
 import com.jbs.SpringBootHBTest.configuration.SpringConfiguration;
