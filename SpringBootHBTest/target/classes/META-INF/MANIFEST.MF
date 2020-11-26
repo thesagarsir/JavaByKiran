@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: SpringBootHBTest
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Ankit
+Built-By: Admin
 Implementation-Vendor-Id: com.jbs
-Build-Jdk: 1.8.0_251
+Build-Jdk: 1.8.0_151
 Implementation-URL: https://spring.io/projects/spring-boot/SpringBootH
  BTest
 Created-By: Maven Integration for Eclipse
