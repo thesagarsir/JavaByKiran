@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: SpringBootHBTest
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Shweta Desai
+Built-By: Afreen
 Implementation-Vendor-Id: com.jbs
-Build-Jdk: 1.8.0_144
+Build-Jdk: 1.8.0_211
 Implementation-URL: https://spring.io/projects/spring-boot/SpringBootH
  BTest
 Created-By: Maven Integration for Eclipse

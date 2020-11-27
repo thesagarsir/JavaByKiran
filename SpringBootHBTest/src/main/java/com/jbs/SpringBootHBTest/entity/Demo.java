@@ -1,7 +1,5 @@
 package com.jbs.SpringBootHBTest.entity;
-
-// default package
-// Generated 12 Nov, 2020 9:30:15 AM by Hibernate Tools 5.2.12.Final
+// Generated Nov 27, 2020 12:09:10 AM by Hibernate Tools 5.2.12.Final
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
