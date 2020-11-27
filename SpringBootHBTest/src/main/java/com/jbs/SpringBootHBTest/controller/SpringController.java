@@ -16,13 +16,15 @@ public class SpringController {
 	SpringService springService;
 	
 	@GetMapping("getallemployee")
-	public String getAllEmpolee() {
-		System.out.println("Committed by Atul");
-		System.out.println("Committed by Sachin");
+	public List<Demo> getAllEmpolee() {
+		//System.out.println("Committed by Atul");
+		//System.out.println("Committed by Sachin");
 		//System.out.println("satara");
-		//List<Demo> listOfEmp = springService.getAllEmpolee();
-		//return listOfEmp;
+		System.out.println("GetAllEmployee Controller...");
+		List<Demo> listOfEmp = springService.getAllEmpolee();
+		return listOfEmp;
 		
-		return "hi";
+		//return "hi";
 	}
+	
 }

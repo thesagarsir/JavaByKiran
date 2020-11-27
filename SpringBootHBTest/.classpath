@@ -29,6 +29,5 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/JBK software/Mysql Setup &amp; Documentaion/MySql_Setup/mysql.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
