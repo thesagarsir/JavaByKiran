@@ -18,8 +18,11 @@ public class SpringDao {
 	SessionFactory sessionFactory =  SpringConfiguration.getSession();
 	
 	public List<Demo> getAllEmpolee() {
+		
+		System.out.println("GetAllEmployee Dao...");
+		
 		Session session = sessionFactory.openSession();
-	 Transaction tr = 	session.beginTransaction();
+	    Transaction tr = 	session.beginTransaction();
 		Criteria criteria = session.createCriteria(Demo.class);
 		List<Demo> listOfEmp =  criteria.list();
 		tr.commit();
