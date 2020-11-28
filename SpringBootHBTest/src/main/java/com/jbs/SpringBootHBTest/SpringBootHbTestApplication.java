@@ -11,6 +11,7 @@ public class SpringBootHbTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootHbTestApplication.class, args);
+		System.out.println("Loading Successfull");
 	}
 
 }
