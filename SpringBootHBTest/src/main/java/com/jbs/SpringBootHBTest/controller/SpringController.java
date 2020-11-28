@@ -4,12 +4,15 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jbs.SpringBootHBTest.entity.Demo;
 import com.jbs.SpringBootHBTest.service.SpringService;
 
 @RestController
+@RequestMapping("/api")
 public class SpringController {
 
 	@Autowired
@@ -28,5 +31,15 @@ public class SpringController {
 		
 		//return "hi";
 	}
+	
+	/*
+	 * @GetMapping("getbyid/{id}") public Demo getbyid(@PathVariable int id) { Demo
+	 * demo =springService.getbyid(id);
+	 * 
+	 * return demo;
+	 * 
+	 * 
+	 * }
+	 */
 	
 }

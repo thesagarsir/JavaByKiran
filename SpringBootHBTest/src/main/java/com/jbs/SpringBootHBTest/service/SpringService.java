@@ -19,5 +19,9 @@ public class SpringService {
 		List<Demo> listofEmp = springDao.getAllEmpolee();
 		return listofEmp;
 	}
+	public Demo getbyid(int id) {
+		Demo demo = springDao.getbyid(id);
+		return demo;
+	}
 
 }
