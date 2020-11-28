@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jbs.SpringBootHBTest.entity.Demo;
@@ -21,4 +23,9 @@ public class SpringController {
 		List<Demo> listOfEmp = springService.getAllEmpolee();
 		return listOfEmp;
 	}
+	@RequestMapping("/showallemployeebyid/{id}")
+    public List<Demo> showallemployeebyid(@PathVariable int id){
+    List<Demo> listemp=springService.showallemployeebyid(id);
+	    return listemp;
+    }
 }

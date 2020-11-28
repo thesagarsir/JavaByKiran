@@ -20,4 +20,9 @@ public class SpringService {
 		return listofEmp;
 	}
 
+	public List<Demo> showallemployeebyid(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
