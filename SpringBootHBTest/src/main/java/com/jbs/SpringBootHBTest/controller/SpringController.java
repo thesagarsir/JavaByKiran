@@ -20,7 +20,7 @@ public class SpringController {
 		//System.out.println("Committed by Atul");
 		//System.out.println("Committed by Sachin");
 		//System.out.println("satara");
-		System.out.println("committed by Anjali");
+		System.out.println("committed by Anjalii...");
 		System.out.println("GetAllEmployee Controller...");
 		List<Demo> listOfEmp = springService.getAllEmpolee();
 		return listOfEmp;
