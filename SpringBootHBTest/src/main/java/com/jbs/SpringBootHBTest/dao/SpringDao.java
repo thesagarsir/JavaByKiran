@@ -14,10 +14,10 @@ import com.jbs.SpringBootHBTest.entity.Demo;
 
 @Repository
 public class SpringDao {
-
 	SessionFactory sessionFactory =  SpringConfiguration.getSession();
 	
 	public List<Demo> getAllEmpolee() {
+		System.out.println("hello i am in dao and commiting code to local branch");
 		Session session = sessionFactory.openSession();
 	 Transaction tr = 	session.beginTransaction();
 		Criteria criteria = session.createCriteria(Demo.class);
